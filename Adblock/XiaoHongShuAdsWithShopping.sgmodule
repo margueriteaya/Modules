@@ -52,8 +52,6 @@ redbook_json = type=http-response,pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/
 redbook_json = type=http-response,pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/hot_list,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
 # > 小红书_默认填词@ddgksf2013
 redbook_json = type=http-response,pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/hint,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
-# > 小红书_去除购物@ddgksf2013
-redbook_json = type=http-response,pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/homefeed\/categories,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
 # > 小红书_猜你想搜@ddgksf2013
 redbook_json = type=http-response,pattern=^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/trending,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js
 
